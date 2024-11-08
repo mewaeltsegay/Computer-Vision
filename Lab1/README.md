@@ -1,4 +1,5 @@
-# Gaussian Averaging Filter
+# Group 3
+# Gaussian Averaging Filter with variable kernel size
 The Gaussian smoothing operator is a 2-D convolution operator that is used to `blur' images and remove detail and noise. In this sense it is similar to the mean filter, but it uses a different kernel that represents the shape of a Gaussian (`bell-shaped') hump. This kernel has some special properties which are detailed below.
 
 ## How it Works
