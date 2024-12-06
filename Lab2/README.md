@@ -208,7 +208,7 @@ Feature Matching:
 <<<<<<< HEAD
    ![Lighting Dark Results](Source/results/lighting_scene_dark_comparison.jpg)
 =======
-   ![Lighting Dark Results](source/results/lighting_scene_dark_comparison.jpg)
+   ![Lighting Dark Results](Source/results/lighting_scene_dark_comparison.jpg)
 >>>>>>> 17d262134abf72a993de95f26bb3d7af1212706b
 
 5. **Occlusion Tests**:
