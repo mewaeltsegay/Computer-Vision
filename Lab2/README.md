@@ -254,69 +254,8 @@ The green rectangles/polygons indicate the detected matches in each method. Temp
 
 ## 4. Conclusions
 
-Based on the comprehensive testing across 15 different scenarios, we can draw the following conclusions:
 
-1. **Performance Metrics**:
-   - Template Matching:
-     * Average Confidence: 0.905 ± 0.240
-     * Average Execution Time: 0.024s ± 0.013s
-     * Highly efficient for basic matching (0.027s)
-   - Feature Matching:
-     * Average Match Ratio: 0.611 ± 0.291
-     * Average Execution Time: 0.182s ± 0.055s
-     * Consistent performance in complex scenarios
-
-2. **Strengths by Scenario**:
-
-   Template Matching excels in:
-   * Basic scene matching (0.999 confidence)
-   * Lighting variations (1.000 confidence for bright, 0.998 for dark)
-   * Perspective changes (1.000 confidence for both slight and extreme)
-   * Occlusion handling (0.999-1.000 confidence)
-
-   Feature Matching excels in:
-   * Perspective transformations (0.929-1.000 match ratio)
-   * Complex scenes with good features (0.846 match ratio in moderate complexity)
-   * Consistent inlier ratios (often achieving 1.000)
-   * Robust keypoint detection (up to 7820 keypoints in rich scenes)
-
-3. **Limitations**:
-
-   Template Matching weaknesses:
-   * Poor performance in rotation tests (0.409 confidence)
-   * Struggles with complex textures (0.196 confidence)
-   * Sensitive to geometric transformations
-
-   Feature Matching weaknesses:
-   * Fails with texture-heavy scenes (0.000 match ratio)
-   * Longer processing times (up to 0.370s)
-   * Requires sufficient distinctive features (struggles with < 10 keypoints)
-
-4. **Optimal Use Cases**:
-
-   Template Matching:
-   * Quality control applications requiring exact matches
-   * High-speed processing requirements (average 0.024s)
-   * Scenarios with consistent lighting and perspective
-   * Applications where confidence > 0.9 is required
-
-   Feature Matching:
-   * Real-world object detection with varying conditions
-   * Applications tolerating longer processing times
-   * Scenarios with perspective and scale changes
-   * Cases requiring robust geometric transformation handling
-
-5. **Key Insights**:
-   * Template matching is 7.5x faster on average
-   * Feature matching shows more consistent performance across transformations
-   * Both methods struggle with highly textured patterns
-   * The choice between methods should consider the specific requirements of:
-     - Processing time constraints
-     - Required accuracy
-     - Expected scene variations
-     - Computational resources available
-
-These conclusions are supported by quantitative metrics across all test scenarios, providing a solid foundation for choosing between these methods in practical applications.
+Based on the comprehensive testing across various scenarios, we can draw the following conclusions:
 
 ## 5. Sources
 
