@@ -205,11 +205,9 @@ Feature Matching:
    - Dark: Template (0.998) vs Feature (0.793)
    
    ![Lighting Bright Results](Source/results/lighting_scene_bright_comparison.jpg)
-<<<<<<< HEAD
+
    ![Lighting Dark Results](Source/results/lighting_scene_dark_comparison.jpg)
-=======
-   ![Lighting Dark Results](Source/results/lighting_scene_dark_comparison.jpg)
->>>>>>> 17d262134abf72a993de95f26bb3d7af1212706b
+
 
 5. **Occlusion Tests**:
    - Partial: Template (0.999) vs Feature (0.646)
