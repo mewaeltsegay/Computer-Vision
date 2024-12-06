@@ -185,61 +185,61 @@ Feature Matching:
    - Template: 0.999 confidence
    - Feature: 0.845 match ratio
    
-   ![Basic Matching Results](source/results/basic_scene_comparison.jpg)
+   ![Basic Matching Results](Source/results/basic_scene_comparison.jpg)
 
 2. **Rotation Test**:
    - Template: 0.409 confidence (poor)
    - Feature: 0.491 match ratio (better)
    
-   ![Rotation Test Results](source/results/rotation_scene_comparison.jpg)
+   ![Rotation Test Results](Source/results/rotation_scene_comparison.jpg)
 
 3. **Scale Variations**:
    - Far: Template (0.998) vs Feature (0.833)
    - Close: Template (0.996) vs Feature (0.486)
    
-   ![Scale Far Results](source/results/scale_scene_far_comparison.jpg)
-   ![Scale Close Results](source/results/scale_scene_close_comparison.jpg)
+   ![Scale Far Results](Source/results/scale_scene_far_comparison.jpg)
+   ![Scale Close Results](Source/results/scale_scene_close_comparison.jpg)
 
 4. **Lighting Changes**:
    - Bright: Template (1.000) vs Feature (0.733)
    - Dark: Template (0.998) vs Feature (0.793)
    
-   ![Lighting Bright Results](source/results/lighting_scene_bright_comparison.jpg)
-   ![Lighting Dark Results](source/results/lighting_scene_dark_comparison.jpg)
+   ![Lighting Bright Results](Source/results/lighting_scene_bright_comparison.jpg)
+   ![Lighting Dark Results](Source/results/lighting_scene_dark_comparison.jpg)
 
 5. **Occlusion Tests**:
    - Partial: Template (0.999) vs Feature (0.646)
    - Major: Template (1.000) vs Feature (0.600)
    
-   ![Occlusion Partial Results](source/results/occlusion_scene_partial_comparison.jpg)
-   ![Occlusion Major Results](source/results/occlusion_scene_major_comparison.jpg)
+   ![Occlusion Partial Results](Source/results/occlusion_scene_partial_comparison.jpg)
+   ![Occlusion Major Results](Source/results/occlusion_scene_major_comparison.jpg)
 
 6. **Multiple Similar Objects**:
    - Template: 0.999 confidence
    - Feature: 0.000 match ratio (failed to detect)
    
-   ![Multiple Objects Results](source/results/multiple_scene_comparison.jpg)
+   ![Multiple Objects Results](Source/results/multiple_scene_comparison.jpg)
 
 7. **Perspective Changes**:
    - Slight: Template (1.000) vs Feature (0.929)
    - Extreme: Template (1.000) vs Feature (1.000)
    
-   ![Perspective Slight Results](source/results/perspective_scene_slight_comparison.jpg)
-   ![Perspective Extreme Results](source/results/perspective_scene_extreme_comparison.jpg)
+   ![Perspective Slight Results](Source/results/perspective_scene_slight_comparison.jpg)
+   ![Perspective Extreme Results](Source/results/perspective_scene_extreme_comparison.jpg)
 
 8. **Texture Variations**:
    - Regular: Template (0.997) vs Feature (0.000)
    - Complex: Template (0.196) vs Feature (0.000)
    
-   ![Texture Regular Results](source/results/texture_scene_regular_comparison.jpg)
-   ![Texture Complex Results](source/results/texture_scene_complex_comparison.jpg)
+   ![Texture Regular Results](Source/results/texture_scene_regular_comparison.jpg)
+   ![Texture Complex Results](Source/results/texture_scene_complex_comparison.jpg)
 
 9. **Combined Challenges**:
    - Moderate: Template (1.000) vs Feature (0.846)
    - Extreme: Template (1.000) vs Feature (0.455)
    
-   ![Complex Moderate Results](source/results/complex_scene_moderate_comparison.jpg)
-   ![Complex Extreme Results](source/results/complex_scene_extreme_comparison.jpg)
+   ![Complex Moderate Results](Source/results/complex_scene_moderate_comparison.jpg)
+   ![Complex Extreme Results](Source/results/complex_scene_extreme_comparison.jpg)
 
 Each comparison image shows:
 
