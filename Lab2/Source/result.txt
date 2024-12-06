@@ -1,0 +1,208 @@
+Detailed Analysis:
+================================================================================
+
+Test Case: images/basic_scene.jpg
+----------------------------------------
+Template Matching:
+  Confidence: 0.999
+  Execution Time: 0.027s
+
+Feature Matching:
+  Match Ratio: 0.845
+  Keypoints (Template/Image): 129/7820
+  Good Matches: 109
+  Inlier Ratio: 1.000
+  Execution Time: 0.370s
+
+Test Case: images/rotation_scene.jpg
+----------------------------------------
+Template Matching:
+  Confidence: 0.409
+  Execution Time: 0.064s
+
+Feature Matching:
+  Match Ratio: 0.491
+  Keypoints (Template/Image): 53/463
+  Good Matches: 26
+  Inlier Ratio: 0.962
+  Execution Time: 0.188s
+
+Test Case: images/scale_scene_far.jpg
+----------------------------------------
+Template Matching:
+  Confidence: 0.998
+  Execution Time: 0.014s
+
+Feature Matching:
+  Match Ratio: 0.833
+  Keypoints (Template/Image): 18/352
+  Good Matches: 15
+  Inlier Ratio: 1.000
+  Execution Time: 0.144s
+
+Test Case: images/scale_scene_close.jpg
+----------------------------------------
+Template Matching:
+  Confidence: 0.996
+  Execution Time: 0.017s
+
+Feature Matching:
+  Match Ratio: 0.486
+  Keypoints (Template/Image): 35/4654
+  Good Matches: 17
+  Inlier Ratio: 1.000
+  Execution Time: 0.198s
+
+Test Case: images/lighting_scene_bright.jpg
+----------------------------------------
+Template Matching:
+  Confidence: 1.000
+  Execution Time: 0.018s
+
+Feature Matching:
+  Match Ratio: 0.733
+  Keypoints (Template/Image): 45/481
+  Good Matches: 33
+  Inlier Ratio: 0.970
+  Execution Time: 0.140s
+
+Test Case: images/lighting_scene_dark.jpg
+----------------------------------------
+Template Matching:
+  Confidence: 0.998
+  Execution Time: 0.011s
+
+Feature Matching:
+  Match Ratio: 0.793
+  Keypoints (Template/Image): 29/307
+  Good Matches: 23
+  Inlier Ratio: 1.000
+  Execution Time: 0.155s
+
+Test Case: images/occlusion_scene_partial.jpg
+----------------------------------------
+Template Matching:
+  Confidence: 0.999
+  Execution Time: 0.021s
+
+Feature Matching:
+  Match Ratio: 0.646
+  Keypoints (Template/Image): 48/1049
+  Good Matches: 31
+  Inlier Ratio: 1.000
+  Execution Time: 0.154s
+
+Test Case: images/occlusion_scene_major.jpg
+----------------------------------------
+Template Matching:
+  Confidence: 1.000
+  Execution Time: 0.012s
+
+Feature Matching:
+  Match Ratio: 0.600
+  Keypoints (Template/Image): 25/1122
+  Good Matches: 15
+  Inlier Ratio: 1.000
+  Execution Time: 0.157s
+
+Test Case: images/multiple_scene.jpg
+----------------------------------------
+Template Matching:
+  Confidence: 0.990
+  Execution Time: 0.030s
+
+Feature Matching:
+  Match Ratio: 0.516
+  Keypoints (Template/Image): 64/1814
+  Good Matches: 33
+  Inlier Ratio: 0.970
+  Execution Time: 0.180s
+
+Test Case: images/perspective_scene_slight.jpg
+----------------------------------------
+Template Matching:
+  Confidence: 1.000
+  Execution Time: 0.016s
+
+Feature Matching:
+  Match Ratio: 0.929
+  Keypoints (Template/Image): 14/246
+  Good Matches: 13
+  Inlier Ratio: 1.000
+  Execution Time: 0.140s
+
+Test Case: images/perspective_scene_extreme.jpg
+----------------------------------------
+Template Matching:
+  Confidence: 1.000
+  Execution Time: 0.019s
+
+Feature Matching:
+  Match Ratio: 1.000
+  Keypoints (Template/Image): 8/4425
+  Good Matches: 8
+  Inlier Ratio: 1.000
+  Execution Time: 0.216s
+
+Test Case: images/texture_scene_regular.jpg
+----------------------------------------
+Template Matching:
+  Confidence: 0.997
+  Execution Time: 0.024s
+
+Feature Matching:
+  Match Ratio: 0.000
+  Keypoints (Template/Image): 4/1227
+  Good Matches: 0
+  Inlier Ratio: 0.000
+  Execution Time: 0.151s
+
+Test Case: images/texture_scene_complex.jpg
+----------------------------------------
+Template Matching:
+  Confidence: 0.196
+  Execution Time: 0.037s
+
+Feature Matching:
+  Match Ratio: 0.000
+  Keypoints (Template/Image): 40/3013
+  Good Matches: 0
+  Inlier Ratio: 0.000
+  Execution Time: 0.205s
+
+Test Case: images/complex_scene_moderate.jpg
+----------------------------------------
+Template Matching:
+  Confidence: 1.000
+  Execution Time: 0.024s
+
+Feature Matching:
+  Match Ratio: 0.846
+  Keypoints (Template/Image): 78/2019
+  Good Matches: 66
+  Inlier Ratio: 1.000
+  Execution Time: 0.175s
+
+Test Case: images/complex_scene_extreme.jpg
+----------------------------------------
+Template Matching:
+  Confidence: 1.000
+  Execution Time: 0.021s
+
+Feature Matching:
+  Match Ratio: 0.455
+  Keypoints (Template/Image): 11/1212
+  Good Matches: 5
+  Inlier Ratio: 1.000
+  Execution Time: 0.157s
+
+Summary Statistics:
+================================================================================
+
+Template Matching:
+  Average Confidence: 0.905 ± 0.240
+  Average Time: 0.024s ± 0.013s
+
+Feature Matching:
+  Average Match Ratio: 0.611 ± 0.291
+  Average Time: 0.182s ± 0.055s
