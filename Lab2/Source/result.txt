@@ -5,53 +5,53 @@ Test Case: images/basic_scene.jpg
 ----------------------------------------
 Template Matching:
   Confidence: 0.999
-  Execution Time: 0.078s
+  Execution Time: 0.044s
 
 Feature Matching:
   Match Ratio: 0.845
   Keypoints (Template/Image): 129/7820
   Good Matches: 109
   Inlier Ratio: 1.000
-  Execution Time: 0.578s
+  Execution Time: 0.419s
 
 Test Case: images/rotation_scene.jpg
 ----------------------------------------
 Template Matching:
   Confidence: 0.409
-  Execution Time: 0.051s
+  Execution Time: 0.028s
 
 Feature Matching:
   Match Ratio: 0.491
   Keypoints (Template/Image): 53/463
   Good Matches: 26
   Inlier Ratio: 0.962
-  Execution Time: 0.159s
+  Execution Time: 0.165s
 
 Test Case: images/scale_scene_far.jpg
 ----------------------------------------
 Template Matching:
-  Confidence: 0.998
-  Execution Time: 0.019s
+  Confidence: 0.709
+  Execution Time: 0.016s
 
 Feature Matching:
-  Match Ratio: 0.833
-  Keypoints (Template/Image): 18/352
-  Good Matches: 15
+  Match Ratio: 0.700
+  Keypoints (Template/Image): 10/352
+  Good Matches: 7
   Inlier Ratio: 1.000
-  Execution Time: 0.174s
+  Execution Time: 0.153s
 
 Test Case: images/scale_scene_close.jpg
 ----------------------------------------
 Template Matching:
   Confidence: 0.360
-  Execution Time: 0.022s
+  Execution Time: 0.039s
 
 Feature Matching:
   Match Ratio: 0.205
   Keypoints (Template/Image): 78/4654
   Good Matches: 16
   Inlier Ratio: 1.000
-  Execution Time: 0.316s
+  Execution Time: 0.218s
 
 Test Case: images/lighting_scene_bright.jpg
 ----------------------------------------
@@ -64,145 +64,145 @@ Feature Matching:
   Keypoints (Template/Image): 62/481
   Good Matches: 17
   Inlier Ratio: 0.824
-  Execution Time: 0.227s
+  Execution Time: 0.156s
 
 Test Case: images/lighting_scene_dark.jpg
 ----------------------------------------
 Template Matching:
   Confidence: 0.994
-  Execution Time: 0.043s
+  Execution Time: 0.041s
 
 Feature Matching:
   Match Ratio: 0.700
   Keypoints (Template/Image): 20/307
   Good Matches: 14
   Inlier Ratio: 1.000
-  Execution Time: 0.187s
+  Execution Time: 0.154s
 
 Test Case: images/occlusion_scene_partial.jpg
 ----------------------------------------
 Template Matching:
-  Confidence: 0.999
-  Execution Time: 0.019s
+  Confidence: 0.735
+  Execution Time: 0.041s
 
 Feature Matching:
-  Match Ratio: 0.646
-  Keypoints (Template/Image): 48/1049
-  Good Matches: 31
+  Match Ratio: 0.389
+  Keypoints (Template/Image): 36/1049
+  Good Matches: 14
   Inlier Ratio: 1.000
-  Execution Time: 0.204s
+  Execution Time: 0.155s
 
 Test Case: images/occlusion_scene_major.jpg
 ----------------------------------------
 Template Matching:
-  Confidence: 1.000
-  Execution Time: 0.041s
+  Confidence: 0.842
+  Execution Time: 0.017s
 
 Feature Matching:
-  Match Ratio: 0.600
-  Keypoints (Template/Image): 25/1122
-  Good Matches: 15
+  Match Ratio: 0.364
+  Keypoints (Template/Image): 11/1122
+  Good Matches: 4
   Inlier Ratio: 1.000
-  Execution Time: 0.219s
+  Execution Time: 0.155s
 
 Test Case: images/multiple_scene.jpg
 ----------------------------------------
 Template Matching:
   Confidence: 0.990
-  Execution Time: 0.076s
+  Execution Time: 0.028s
 
 Feature Matching:
   Match Ratio: 0.516
   Keypoints (Template/Image): 64/1814
   Good Matches: 33
   Inlier Ratio: 0.970
-  Execution Time: 0.215s
+  Execution Time: 0.214s
 
 Test Case: images/perspective_scene_slight.jpg
 ----------------------------------------
 Template Matching:
-  Confidence: 1.000
-  Execution Time: 0.043s
+  Confidence: 0.668
+  Execution Time: 0.018s
 
 Feature Matching:
-  Match Ratio: 0.929
-  Keypoints (Template/Image): 14/246
+  Match Ratio: 0.684
+  Keypoints (Template/Image): 19/246
   Good Matches: 13
   Inlier Ratio: 1.000
-  Execution Time: 0.142s
+  Execution Time: 0.139s
 
 Test Case: images/perspective_scene_extreme.jpg
 ----------------------------------------
 Template Matching:
-  Confidence: 1.000
-  Execution Time: 0.039s
+  Confidence: 0.804
+  Execution Time: 0.040s
 
 Feature Matching:
-  Match Ratio: 1.000
-  Keypoints (Template/Image): 8/4425
-  Good Matches: 8
-  Inlier Ratio: 1.000
-  Execution Time: 0.232s
+  Match Ratio: 0.000
+  Keypoints (Template/Image): 5/4425
+  Good Matches: 0
+  Inlier Ratio: 0.000
+  Execution Time: 0.328s
 
 Test Case: images/texture_scene_regular.jpg
 ----------------------------------------
 Template Matching:
   Confidence: 0.997
-  Execution Time: 0.041s
+  Execution Time: 0.018s
 
 Feature Matching:
   Match Ratio: 0.000
   Keypoints (Template/Image): 4/1227
   Good Matches: 0
   Inlier Ratio: 0.000
-  Execution Time: 0.159s
+  Execution Time: 0.154s
 
 Test Case: images/texture_scene_complex.jpg
 ----------------------------------------
 Template Matching:
   Confidence: 0.196
-  Execution Time: 0.040s
+  Execution Time: 0.041s
 
 Feature Matching:
   Match Ratio: 0.000
   Keypoints (Template/Image): 40/3013
   Good Matches: 0
   Inlier Ratio: 0.000
-  Execution Time: 0.235s
+  Execution Time: 0.205s
 
 Test Case: images/complex_scene_moderate.jpg
 ----------------------------------------
 Template Matching:
-  Confidence: 1.000
-  Execution Time: 0.042s
+  Confidence: 0.880
+  Execution Time: 0.019s
 
 Feature Matching:
-  Match Ratio: 0.846
-  Keypoints (Template/Image): 78/2019
-  Good Matches: 66
-  Inlier Ratio: 1.000
-  Execution Time: 0.227s
+  Match Ratio: 0.475
+  Keypoints (Template/Image): 80/2019
+  Good Matches: 38
+  Inlier Ratio: 0.947
+  Execution Time: 0.170s
 
 Test Case: images/complex_scene_extreme.jpg
 ----------------------------------------
 Template Matching:
-  Confidence: 1.000
-  Execution Time: 0.019s
+  Confidence: 0.556
+  Execution Time: 0.017s
 
 Feature Matching:
-  Match Ratio: 0.455
-  Keypoints (Template/Image): 11/1212
-  Good Matches: 5
-  Inlier Ratio: 1.000
-  Execution Time: 0.166s
+  Match Ratio: 0.421
+  Keypoints (Template/Image): 19/1212
+  Good Matches: 8
+  Inlier Ratio: 0.750
+  Execution Time: 0.160s
 
 Summary Statistics:
 ================================================================================
 
 Template Matching:
-  Average Confidence: 0.862 ± 0.273
-  Average Time: 0.041s ± 0.017s
+  Average Confidence: 0.742 ± 0.251
+  Average Time: 0.030s ± 0.011s
 
 Feature Matching:
-  Average Match Ratio: 0.556 ± 0.311
-  Average Time: 0.229s ± 0.102s
+  Average Match Ratio: 0.404 ± 0.261
+  Average Time: 0.196s ± 0.075s
